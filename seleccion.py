@@ -55,7 +55,7 @@ def seleccion():
         "Envidia"
     ]
 
-    #Añadir secretoss
+    #Añadir secretos
     secretos = [
         "Estabas en un lugar donde no debías estar",
         "Tenías deudas con la víctima",
