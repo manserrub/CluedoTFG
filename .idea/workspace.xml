@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="569256dc-1a8f-444f-a563-28c2133702dc" name="Changes" comment="Creación de la version temprana del juego">
-      <change afterPath="$PROJECT_DIR$/conversacion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/inicio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/juego.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleccion.py" beforeDir="false" afterPath="$PROJECT_DIR$/seleccion.py" afterDir="false" />
-    </list>
+    <list default="true" id="569256dc-1a8f-444f-a563-28c2133702dc" name="Changes" comment="Mejora" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +17,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/manserrub/CluedoTFG.git",
+    "accountId": "9cc5de5c-9266-4c3a-9a9a-13ef7fd79942"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="39lIILoeP47WhjP5sjhtOJeO6QN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,10 +36,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "master",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771264150226</updated>
       <workItem from="1771264151323" duration="12125000" />
+      <workItem from="1771360596334" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la version temprana del juego">
       <option name="closed" value="true" />
@@ -68,14 +71,34 @@
       <option name="project" value="LOCAL" />
       <updated>1771268494728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mejora">
+      <option name="closed" value="true" />
+      <created>1771360780466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771360780466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de la version temprana del juego" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de la version temprana del juego" />
+    <MESSAGE value="Mejora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mejora" />
   </component>
 </project>
