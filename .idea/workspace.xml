@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="569256dc-1a8f-444f-a563-28c2133702dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Cluedo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inicio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleccion.py" afterDir="false" />
+    <list default="true" id="569256dc-1a8f-444f-a563-28c2133702dc" name="Changes" comment="Creación de la version temprana del juego">
+      <change afterPath="$PROJECT_DIR$/conversacion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/inicio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/juego.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleccion.py" beforeDir="false" afterPath="$PROJECT_DIR$/seleccion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +58,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771264150226</updated>
-      <workItem from="1771264151323" duration="3674000" />
+      <workItem from="1771264151323" duration="12125000" />
     </task>
+    <task id="LOCAL-00001" summary="Creación de la version temprana del juego">
+      <option name="closed" value="true" />
+      <created>1771268494728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771268494728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creación de la version temprana del juego" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de la version temprana del juego" />
   </component>
 </project>

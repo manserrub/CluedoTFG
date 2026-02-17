@@ -55,6 +55,7 @@ def seleccion():
         "Envidia"
     ]
 
+    #Añadir secretos
     secretos = [
         "Estabas en un lugar donde no debías estar",
         "Tenías deudas con la víctima",
@@ -73,6 +74,7 @@ def seleccion():
 
     def generar_solucion():
 
+        #Añadir un if para que la victima y los personajes sean parte de la seleccion
         victima = elegir_aleatorio(victimas)
         asesino = elegir_aleatorio(seleccion)
 

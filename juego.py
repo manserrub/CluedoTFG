@@ -1,48 +1,34 @@
 import streamlit as st
-
-
-# GENERADOR DE PROMPTS IA
-def generar_prompt(nombre, datos):
-    if datos["rol"] == "asesino":
-
-        return f"""
-               Eres {nombre}.
-               Eres el asesino, pero debes ocultarlo.
-
-               Tu motivo real es: {datos['motivo_real']}
-
-               Tu coartada:
-               {datos['coartada']}
-
-               Nunca confieses el crimen.
-               """
-
-    else:
-
-        return f"""
-               Eres {nombre}.
-               No eres el asesino.
-
-               Sabes con seguridad:
-               {datos['verdad']}
-
-               Crees recordar:
-               {datos['confusion']}
-
-               Ocultas:
-               {datos['secreto']}
-
-               Responde solo desde el conocimiento de tu personaje.
-               """
+from conversacion import *
 
 def juego():
-    st.title("⚔️ La aventura comienza")
+    st.title("🔍 El caso comienza")
 
-    st.write("Personajes elegidos:")
-    st.write(st.session_state.personajes)
-    st.write(st.session_state.caso)
+    caso = st.session_state.caso
+    menu = st.session_state.personajes
 
-    if st.button("Volver al inicio"):
-        st.session_state.pantalla = "inicio"
-        st.session_state.personajes = []
-        st.rerun()
+    choice = st.selectbox(f'**MENU**',menu)
+
+    if choice == "Coronel Mustard":
+        conversacion("Coronel Mustard",menu["Coronel Mustard"],caso)
+    elif choice == "Profesor Plum":
+        conversacion("Profesor Plum",menu["Profesor Plum"],caso)
+    elif choice == "Señora Peacock":
+        conversacion("Señora Peacock",menu["Señora Peacock"],caso)
+    elif choice == "Señora White":
+        conversacion("Señora White",menu["Señora White"],caso)
+    elif choice == "Señor Green":
+        conversacion("Señor Green",menu["Señor Green"],caso)
+    elif choice == "Miss Scarlet":
+        conversacion("Miss Scarlet",menu["Miss Scarlet"],caso)
+
+
+    #st.write("Personajes elegidos:")
+    #st.write(st.session_state.personajes)
+    #st.write(st.session_state.caso)
+
+
+    #if st.button("Volver al inicio"):
+    #    st.session_state.pantalla = "inicio"
+    #    st.session_state.personajes = []
+    #    st.rerun()
