@@ -87,7 +87,7 @@ def seleccion():
             "motivo": elegir_aleatorio(motivos)
         }
 
-    # GENERADOR DE PISTAS VERDADERAS
+    # GENERADOR DE PISTAS VERDADERAS .
     def pista_verdadera(solucion):
 
         tipo = random.choice(["arma", "lugar", "tiempo", "motivo"])
@@ -95,14 +95,16 @@ def seleccion():
         if tipo == "arma":
             return f"Viste a alguien manipulando el arma {solucion['arma']} cerca de {solucion['victima']}"
 
-        if tipo == "lugar":
+        elif tipo == "lugar":
             return f"Oíste un ruido en {solucion['lugar']} donde apareció el cuerpo de {solucion['victima']}"
 
-        if tipo == "tiempo":
+        elif tipo == "tiempo":
             return f"Recuerdas haber visto a {solucion['victima']} poco antes de las {solucion['hora']}"
 
-        if tipo == "motivo":
+        elif tipo == "motivo":
             return f"Sabes que alguien tenía un conflicto con {solucion['victima']} relacionado con {solucion['motivo']}"
+        else:
+            return ""
 
     # GENERADOR DE PISTAS FALSAS
     def pista_falsa(solucion):
@@ -119,6 +121,8 @@ def seleccion():
         if tipo == "hora":
             hora = elegir_aleatorio(horas)
             return f"Crees que el crimen ocurrió alrededor de las {hora}"
+        else:
+            return ""
 
     # GENERAR PERSONAJES
     def generar_personajes(solucion):
